@@ -1,0 +1,168 @@
+{
+    "Data" :{
+        "MainQuest" : [
+            {
+                "QuestID" : 1,
+                "Title" : "Basmi 3 hantu di gedung Agape",
+                "Description" : "Gedung Agape adalah sebuah gedung yang difasiltasi untuk Ruang Belajar, Kantin, Toko Buku, Lab dan Fakultas . Didalam gedung tersebut terbuka sebuah portal yang ditandai pada radius map anda. Anda saya minta untuk menekan penyebaran dari hantu dengan membasmi 3 hantu yang ada disana!",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Kroco",
+                "Reward" : {
+                    "exp" : 25                    
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            },
+            {
+                "QuestID" : 2,
+                "Title" : "Bunuh bos hantu di gedung Agape",
+                "Description" : "Setelah menekan penyebaran dan hawa jahat, gedung agape masih diselimuti hawa jahat yang akan terus berkembang nantinya. Bos hantu merupakan suatu entitas yang sangat kuat dan berpengaruh penting dalam penyebaran hawa jahat. Bunuh bos monster Arakhan yang ada di gedung Agape",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Boss",
+                "Reward" : {
+                    "exp" : 50,
+                    "Skill" : {
+                        "Name" : "Vampiric",
+                        "DamageMultiplier" : 2.5,
+                        "Description" : "Life Steal",
+                        "ElementType" : "Wicked",
+                        "ChargeMultiplier" : 5.0,
+                        "Cooldown" : 6.0,
+                        "LifeSteal" : 20.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_X_chop",
+                        "SourceEffect" : "Hit_03",
+                    }
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : true
+            },
+            {
+                "QuestID" : 3,
+                "Title" : "Basmi 3 hantu di gedung Didaktos",
+                "Description" : "Setelah membunuh hantu yang berada digedung Agape, anda diminta untuk membasi hantu yang berada digedung Didaktos. Gedung Didaktos adalah sebuah gedung yang terdiri dari kelas - kelas teori untuk belajar mata kuliah, Biro 1/2, Gereja dan lain - lain. Pada area tersebut anda diminta untuk membasmi 3 hantu yang ada.",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Kroco",
+                "Reward" : {
+                    "exp" : 25
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            },
+            {
+                "QuestID" : 4,
+                "Title" : "Basmi boss hantu di gedung Didaktos",
+                "Description" : "Pada quest kali ini, basmi boss hantu yang ada di area Didaktos. Boss tersebut memiliki karakteristik yang suka memblokade serangan anda. Jadi damage yang diterima oleh boss tersebut akan sedikit dari damage asli yang anda keluarkan. Selamat berjuang!",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Boss",
+                "Reward" : {
+                    "exp" : 50,
+                    "Burst" : {
+                        "Name" : "Tech",
+                        "DamageMultiplier" : 10.0,
+                        "Description" : "Nyerap energi dari dalam, tapi dalam musuh",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 150,
+                        "Cooldown" : 30.0,
+                        "LifeSteal" : 60.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_technology",
+                        "SourceEffect" : "EtherealHit 2",                    
+                    }
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : true
+            },
+            {
+                "QuestID" : 5,
+                "Title" : "Basmi 3 hantu di gedung Koinonia",
+                "Description" : "Gedung Koinonia adalah gedung yang berada di sebelah kanan UKDW dari pintu masuk. Gedung tersebut memiliki fungsi sebagai tempat auditorium. Pergilah kesana dan basmi 3 hantu yang berada di gedung tersebut.",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Kroco",
+                "Reward" : {
+                    "exp" : 25
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            },
+            {
+                "QuestID" : 6,
+                "Title" : "Basmi Boss hantu di gedung Koinonia",
+                "Description" : "Ini merupakan quest terakhir dari permintaan saya. Anda diminta untuk membunuh boss yang  ",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Boss",
+                "Reward" : {
+                    "exp" : 25
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            }
+        ],
+        "SideQuest" : [
+            {
+                "QuestID" : 101,
+                "Title" : "Secret Quest - 1",
+                "Description" : "",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Kroco",
+                "Reward" : {
+                    "exp" : 75,
+                    "Skill" : {
+                        "Name" : "True Bug",
+                        "DamageMultiplier" : 1.0,
+                        "Description" : "Life Steal",
+                        "ElementType" : "Wicked",
+                        "ChargeMultiplier" : 100.0,
+                        "Cooldown" : 5.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_essence_found",
+                        "SourceEffect" : "Guard_01",
+                    }
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            },
+            {
+                "QuestID" : 102,
+                "Title" : "Secret Quest - 2",
+                "Description" : "",
+                "QuestLocation" : "Koinonia",
+                "Fulfill" : 0,
+                "Request" : 1,
+                "MonsterType" : "Kroco",
+                "Reward" : {
+                    "exp" : 75,
+                    "Burst" : {
+                        "Name" : "Seinaru",
+                        "DamageMultiplier" : 20.0,
+                        "Description" : "Sumpah gak tau mau kasih deskripsi apa",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 100,
+                        "Cooldown" : 5.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_stranger_light",
+                        "SourceEffect" : "ScifiTris 3 (collapse)",
+                    }
+                },
+                "IsFinish" : false,
+                "IsCheckpoint" : false
+            }
+        ]
+    }
+}

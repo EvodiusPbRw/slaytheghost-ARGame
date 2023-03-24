@@ -1,0 +1,29 @@
+{
+	"Map" : [
+		{
+			"Name" : "Agape",
+			"Desc" : "Gedung yang digunakan untuk fasilitas lab teknologi dan kantor fakultas",
+			"location" : "-7.786351333871715, 110.37818056800994"
+		},
+		{
+			"Name" : "Didaktos",
+			"Desc" : "Gedung yang digunakan untuk proses pembelajaran dari mata kuliah yang diambil mahasiswa serta keuangan yang menyangkut mahasiswa",
+			"location" : "-7.785974233426616, 110.37822423754668"
+		},
+		{
+			"Name" : "Koinonia",
+			"Desc" : "Gedung yang digunakan untuk wisuda dan podium acara tertentu",
+			"location" : "-7.785120827965636, 110.37834620877479"
+		},
+		{
+			"Name" : "Bero",
+			"Desc" : "Deskripsi sementara ini kayak gini!",
+			"location" : "-7.737558, 110.246825"
+		},
+		{
+			"Name" : "Testing",
+			"Desc" : "Gedung yang digunakan untuk wisuda dan podium acara tertentu",
+			"location" : "60.19228530809545, 24.967101619297708"
+		}
+	]
+}

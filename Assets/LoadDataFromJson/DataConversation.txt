@@ -1,0 +1,708 @@
+{
+	"Conversation" : {
+		"Main" : [
+			{
+				"ID" : "1",
+				"Part" : "Introduction",
+				"Sentence" : "Hallo, Apakah anda dapat meluangkan waktu untuk berbincang dengan saya?",
+				"Type" : "Choice",
+				"Option" : [
+					{
+						"Response" : "Ya",
+						"Type" : "A",
+						"IsEnding" : false,
+						"EndingType" : ""
+					},
+					{
+						"Response" : "Tidak",
+						"Type" : "B",
+						"IsEnding" : true,
+						"EndingType" : "Ending Denial"
+					}
+				],
+				"Source" : "CloakCharacter"
+			},
+			{
+				"ID" : "2",
+				"Part" : "Introduction",
+				"Sentence" : "Terimakasih sudah meluangkan waktu anda yang berharga untuk berbincang hangat dengan saya",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "CloakCharacter"
+			},
+			{
+				"ID" : "3",
+				"Part" : "Introduction",
+				"Sentence" : "Supaya anda nyaman, mohon tunggu beberapa waktu.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "CloakCharacter"
+			},
+			{
+				"ID" : "4",
+				"Part" : "Introduction",
+				"Sentence" : "...",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : ""
+			},
+			{
+				"ID" : "5",
+				"Part" : "Introduction",
+				"Sentence" : "Terimakasih sudah menunggu saya dan Buatlah diri anda senyaman mungkin dengan berbincang dengan saya.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "IdleCharacter"
+			},
+			{
+				"ID" : "6",
+				"Part" : "Introduction",
+				"Sentence" : "Sebelum itu, saya dipanggil dengan nama Fotina. Ya, seperti nama saya yang mengartikan kebebasan, namun ... sungguh ironis. ",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "7",
+				"Part" : "Introduction",
+				"Sentence" : "OK, sudah cukup untuk perkenalan diri. Apakah anda mahasiswa dari kampus ini?",
+				"Type" : "Choice",
+				"Option" : [
+					{
+						"Response" : "Ya, aku merupakan mahasiswa dari kampus ini.",
+						"Type" : "A",
+						"IsEnding" : false,
+						"EndingType" : ""
+					},
+					{
+						"Response" : "Tidak, aku bukan mahasiswa dari kampus ini.",
+						"Type" : "B",
+						"IsEnding" : false,
+						"EndingType" : ""
+					}
+				],
+				"Source" : "Think2Character"
+			},
+			{
+				"ID" : "8",
+				"Part" : "Choice-A",
+				"Sentence" : "Kalau begitu akan jauh lebih mudah untuk anda yang sudah memahami seluk beluk jalan di kampus ini.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "9",
+				"Part" : "Choice-B",
+				"Sentence" : "Jika anda tidak memahami seluk beluk dari jalan di kampus ini, anda bisa mencari tahu ataupun anda akan menyadari dengan sendirinya.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "10",
+				"Part" : "Explanation",
+				"Sentence" : "Seperti yang saya tanyakan sebelumnya, hal tersebut memiliki keterkaitan karena ada sesuatu keganjilan pada kampus ini. Keganjilan tersebutlah yang memunculkan berbagai macam hantu atau monster.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "11",
+				"Part" : "Explanation",
+				"Sentence" : "Beruntungnya mereka memiliki sifat individualis yang sangat tinggi, jadi anda akan melawan mereka satu persatu.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "12",
+				"Part" : "Explanation",
+				"Sentence" : "Monster tersebut sering kali muncul pada area yang berwarna merah pada map kampus Universitas Kristen Duta Wacana.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "13",
+				"Part" : "Explanation",
+				"Sentence" : "Jika dibiarkan terus menerus, monster tersebut akan melakukan invasi ke dunia nyata dan merasuki beberapa mahasiswa dengan hati atau mental yang goyah.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "14",
+				"Part" : "Explanation",
+				"Sentence" : "Oleh karena itu, bersediakah anda membantu saya untuk membasmi monster dan menutup portal tersebut?",
+				"Type" : "Choice",
+				"Option" : [
+					{
+						"Response" : "Ya, aku akan ikut",
+						"Type" : "A",
+						"IsEnding" : false,
+						"EndingType" : ""
+					},
+					{
+						"Response" : "Tidak, aku tidak ada waktu untuk itu",
+						"Type" : "B",
+						"IsEnding" : true,
+						"EndingType" : "Ending Denial"
+					}
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "15",
+				"Part" : "Explanation",
+				"Sentence" : "Terimakasih sudah bersedia untuk ikut andil dalam membasmi monster ini",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "IdleCharacter"
+			},
+			{
+				"ID" : "16",
+				"Part" : "Explanation",
+				"Sentence" : "Namun sebelum anda memulai membasminya, anda perlu mengetahui bahwa ada beberapa fitur yang membantu anda untuk mengalahkan monster",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "Think2Character"
+			},
+			{
+				"ID" : "17",
+				"Part" : "Explanation",
+				"Sentence" : "Ada Quest yang digunakan sebagai Guideline anda untuk menyelesaikan tujuan utama",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "18",
+				"Part" : "Explanation",
+				"Sentence" : "Ada Bag yang digunakan sebagai tempat penyimpanan item anda.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "18",
+				"Part" : "Explanation",
+				"Sentence" : "Ada layar status yang digunakan untuk melihat statistik dari status anda saat ini. Didalam statuspun anda juga bisa melihat talent yang anda punya dan menggunakan talent tersebut.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "19",
+				"Part" : "Explanation",
+				"Sentence" : "Ada Map juga yang digunakan sebagai navigasi anda untuk menuju wilayah merah tersebut. Map tersebut dapat diperbesar dan memuat tempat apa saja yang harus anda datangi.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointObjCharacter"
+			},
+			{
+				"ID" : "20",
+				"Part" : "Explanation",
+				"Sentence" : "Sekarang untuk cara bertarung anda, cara bertarung yang akan anda gunakan adalah melakukan tap/sentuhan terhadap monster yang anda lawan dan anda bisa menggunakan talent yang anda gunakan tadi pada layar status untuk membantu anda mengalahkan monster tersebut",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "Think2Character"
+			},
+			{
+				"ID" : "21",
+				"Part" : "Information",
+				"Sentence" : "Jika anda masih bingung, tanyakan saja pada saya apa yang ingin anda ketahui",
+				"Type" : "Choice",
+				"Option" : [
+					{
+						"Response" : "Aku ingin tahu ...",
+						"Type" : "A",
+						"IsEnding" : false,
+						"EndingType" : ""
+					},
+					{
+						"Response" : "Terimakasih, itu saja yang aku ingin ketahui",
+						"Type" : "B",
+						"IsEnding" : true,
+						"EndingType" : "Ending Denial"
+					}
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "21",
+				"Part" : "Preparation",
+				"Sentence" : "Kalau begitu, saya akan percayakan tugas ini kepada anda...",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "22",
+				"Part" : "Preparation",
+				"Sentence" : "Sampai saat itu tiba, saya tidak bisa berkomunikasi pada anda. Tolong, berhati-hatilah",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "23",
+				"Part" : "Preparation",
+				"Sentence" : "Sampai jumpa dan sampai bertemu dengan anda lagi...",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Ending Denial" : [
+			{
+				"ID" : "ED-1",
+				"Part" : "Ending",
+				"Sentence" : "Sepertinya saya telah membuang - buang waktu anda, terimakasih telah menyempatkan diri untuk menjawab saya.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "CloakCharacter"
+			},
+			{
+				"ID" : "ED-2",
+				"Part" : "Ending",
+				"Sentence" : "Dilain waktu jika anda berkenan dan mengingat saya, saya akan selalu menunggu anda.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "CloakCharacter"
+			},
+			{
+				"ID" : "ED-3",
+				"Part" : "Ending",
+				"Sentence" : "Semoga hari anda menyenangkan dan sampai jumpa.",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "CloakCharacter"
+			}
+		],
+		"Information-Status" : [
+			{
+				"ID" : "IS-1",
+				"Part" : "Status",
+				"Sentence" : "Status yang anda pakai adalah status dasar dari kebanyakan Game RPG lainnya, yaitu Health Point, Stamina Point, Experience, Base Attack, Base Defense, Stamina Recharge, dan Attack Interval",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-2",
+				"Part" : "Status",
+				"Sentence" : "Saya mulai dari Health Point terlebih dahulu. Health Point merepresentasikan nyawa kamu didalam dunia ini, Health Point anda akan berkurang ketika anda sedang melawan monster. Jika Health Point anda mencapai 0 pada pertarungan, anda akan mati. Jadi berhati-hatilah",
+				"Type" : "Sequential",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-3",
+				"Part" : "Status",
+				"Sentence" : "Lalu yang kedua adalah Stamina Point. Stamina Point merepresentasikan tenaga anda untuk mengeluarkan suatu bakat atau Talent yang anda pakai. Stamina point anda akan berkurang ketika anda menggunakan burst, namun akan terisi kembali ketika anda melakukan serangan biasa ataupun skill.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-4",
+				"Part" : "Status",
+				"Sentence" : "Ketiga adalah Experience. Seperti pengalaman pada hidup anda selama ini, Experience didalam game akan bertambah seiringnya monster yang anda basmi atau quest yang anda selesaikan. Jika Experience anda saat ini sudah mencapai cap, maka anda akan naik level selanjutnya dan saat anda naik level statistik anda juga akan bertambah",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-5",
+				"Part" : "Status",
+				"Sentence" : "Keempat adalah Base Attack. Base Attack merupakan point yang digunakan untuk mengurangi Health Point musuh dan itu saja penjelasan dari Base Attack",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-6",
+				"Part" : "Status",
+				"Sentence" : "Kelima adalah Base Defense. Menurut saya pribadi, Status Base Defense tidak terlalu efektif untuk melawan monster dikarenakan monster memberikan kerusakan secara langsung. Jadi, lebih berhati-hatilah",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-7",
+				"Part" : "Status",
+				"Sentence" : "Lalu yang keenam adalah Stamina Recharge. Stamina Recharge merupakan banyaknya point yang akan bertambah kedalam stamina nantinya. Jika anda melakukan aksi kepada monster seperti attack atau skill maka Stamina Point anda akan bertambah sesuai jumlah Stamina Recharge anda",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-8",
+				"Part" : "Status",
+				"Sentence" : "Dan yang terakhir adalah Attack Interval. Attack Interval merupakan jeda waktu anda untuk melakukan serangan kepada monster pada suatu waktu.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IS-9",
+				"Part" : "Status",
+				"Sentence" : "Sepertinya saya sudah menjelaskan semua mengenai Status, terimakasih sudah mendengarkan saya dengan seksama.",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Information-Talent" :[
+			{
+				"ID" : "IT-1",
+				"Part" : "Talent",
+				"Sentence" : "Cara penggunaan Talent sebenarnya cukup gampang, anda hanya perlu menuju ke layar status dan memilih skill atau burst pada section Talent",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IT-2",
+				"Part" : "Talent",
+				"Sentence" : "Seperti berikut ini...",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IT-3",
+				"Part" : "Talent",
+				"Sentence" : "Saya mulai penjelasan dari skill terlebih dahulu. Skill merupakan metode anda untuk memberikan kerusakan pada monster dengan skala yang lebih kecil dibanding burst. Setiap skill memiliki recharge multiplier, attack multiplier, dan cooldown yang bervariasi. Pilih dengan bijak skill yang anda ingin pakai",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IT-4",
+				"Part" : "Talent",
+				"Sentence" : "Dilanjut dengan penjelasan Burst. Burst merupakan pemberi kerusakan yang sangat besar ke monster. Burst membutuhkan stamina point yang sangat besar untuk penggunaannya dan juga cooldown dari burst terbilang sangat lama untuk penggunaan selanjutnya. Oleh karena itu, anda harus sangat yakin dalam membuat keputusan",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IT-5",
+				"Part" : "Talent",
+				"Sentence" : "Tidak ada informasi yang saya bisa berikan lagi kepada anda mengenai Talent. Semoga anda cukup mengerti dengan penjelasan yang saya bawakan",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Information-Bag" : [
+			{
+				"ID" : "IB-1",
+				"Part" : "Bag",
+				"Sentence" : "Bag merupakan tempat penyimpanan dari item yang kamu dapat selama anda didalam dunia ini. Item yang disimpan dalam bag ada 3 jenis, yaitu Consumable, Artifact dan Equipment",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-2",
+				"Part" : "Bag",
+				"Sentence" : "Saya akan menjelaskan secara singkat 3 jenis dari item tersebut.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-3",
+				"Part" : "Bag",
+				"Sentence" : "Pertama consumable, anda dapat mengkonsumsi item tersebut ketika anda diluar dari pertarungan.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-4",
+				"Part" : "Bag",
+				"Sentence" : "Lalu 2 jenis yang terakhir merupakan item yang hanya bisa digunakan pada pertarungan.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-5",
+				"Part" : "Bag",
+				"Sentence" : "Anda harus ingat hanya satu item saja yang diperbolehkan untuk dipakai pada pertarungan. Jadi, lebih bijaklah dalam menggunakan item",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "IB-6",
+				"Part" : "Bag",
+				"Sentence" : "Hanya itu saja yang dapat saya jelaskan kepada anda mengenai Bag. Terimakasih sudah mendengarkan penjelasan saya",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+		],
+		"Information-Map" : [
+			{
+				"ID" : "IM-1",
+				"Part" : "Map",
+				"Sentence" : "Map adalah fungsi utama yang anda miliki untuk mencari monster yang ada. Dengan map anda dapat mengetahui detail lokasi dimana monster itu berada.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IM-2",
+				"Part" : "Map",
+				"Sentence" : "Pada layar utama anda nantinya, anda akan melihat sebuah minimap. Ketika anda melihat melakukan interaksi dengan minimap tersebut, maka layar map penuh akan muncul.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IM-3",
+				"Part" : "Map",
+				"Sentence" : "Terdapat 3 buah nama gedung dan sebuah lingkaran pada layar anda. Lingkaran tersebut untuk mereposisi layar ke arah posisi anda dan sistem ini berlaku ketika anda melakukan interaksi dengan 3 buah nama gedung tersebut",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IM-4",
+				"Part" : "Map",
+				"Sentence" : "3 nama gedung tersebut yang nantinya anda kunjungi merupakan tujuan utama anda untuk melakukan pembasmian hantu sesuai dengan quest yang diberikan",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IM-5",
+				"Part" : "Map",
+				"Sentence" : "Sekian penjelasan dari saya mengenai Map. Semoga informasi ini dapat berguna untuk anda",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Information-Quest" : [
+			{
+				"ID" : "IQ-1",
+				"Part" : "Quest",
+				"Sentence" : "Quest sebenarnya permintaan saya untuk anda. Anda harus memenuhi apa yang saya minta dalam quest tersebut.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IQ-2",
+				"Part" : "Quest",
+				"Sentence" : "Pada Quest anda berkesempatan mendapatkan sebuah Experience dan Talent.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IQ-3",
+				"Part" : "Quest",
+				"Sentence" : "Tidak banyak informasi yang saya jelaskan untuk anda mengenai quest.",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Information-Battle" : [
+			{
+				"ID" : "IB-1",
+				"Part" : "Battle",
+				"Sentence" : "Pada pertarungan yang berlangsung anda bisa melakukan tap pada tubuh monster yang ada. Tap tersebut tidak akan mengenai monster jika posisinya ada dikaki.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-2",
+				"Part" : "Battle",
+				"Sentence" : "Skill dan Burst merupakan serangan alternatif untuk anda dan itu langsung mengenai monsternya.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-3",
+				"Part" : "Battle",
+				"Sentence" : "Perlu diketahui bahwa monster tersebut akan mengumpulkan energi dari tiap serangan anda. Tiap monster memiliki variasi nilai dalam mengumpulkan energinya. Jika energi monster sudah mencapai maksimal point nya, maka dia akan mengeluarkan jurus",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-4",
+				"Part" : "Battle",
+				"Sentence" : "Juga, anda perlu mengetahui bahwa ada kemungkinan monster tersebut dapat menghindari atau memblokade serangan anda.",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-4",
+				"Part" : "Battle",
+				"Sentence" : "Informasi tambahan untuk anda, monster memiliki statistik yang jauh tinggi dibanding anda. Jadi berhati-hatilah",
+				"Option" : [
+					
+				],
+				"Source" : "ExplainCharacter"
+			},
+			{
+				"ID" : "IB-5",
+				"Part" : "Battle",
+				"Sentence" : "Hmm, sepertinya saya melupakan sesuatu..",
+				"Option" : [
+					
+				],
+				"Source" : "Think2Character"
+			},
+			{
+				"ID" : "IB-6",
+				"Part" : "Battle",
+				"Sentence" : "Ahh ya, monster tersebut akan drop sebuah item jika dikalahkan dan juga anda akan mendapatkan EXP.",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "IB-7",
+				"Part" : "Battle",
+				"Sentence" : "Itu saja informasi yang dapat saya berikan kepada anda mengenai hal yang anda tanyakan.",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		],
+		"Ending True" : [
+			{
+				"ID" : "ET-1",
+				"Part" : "Ending",
+				"Sentence" : "Saya mengucapkan selamat kepada anda karena telah menyelesaikan misi yang telah saya berikan dan menutup portal yang ada.",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "ET-2",
+				"Part" : "Ending",
+				"Sentence" : "Juga, sepertinya ini perpisahan untuk kita. Mohon jaga diri anda..",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+			{
+				"ID" : "ET-3",
+				"Part" : "Ending",
+				"Sentence" : "Ah iya..",
+				"Option" : [
+					
+				],
+				"Source" : "ThinkCharacter"
+			},
+			{
+				"ID" : "ET-4",
+				"Part" : "Ending",
+				"Sentence" : "Terimakasih",
+				"Option" : [
+					
+				],
+				"Source" : "PointMeCharacter"
+			},
+		]
+	}
+}

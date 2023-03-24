@@ -1,0 +1,86 @@
+{
+  
+    "Items" : [
+		{
+			"ItemID" : 1,
+			"Name" : "Health Potion Middle Grade",
+			"Nick" : "HP Potion",
+			"Description" : "Item ini akan memulihkan Health Point kamu sebesar 10% dari total Max Health kamu.",
+			"Type" : "Consumable",
+			"StatusModifier" : 
+				{
+					"hp" : 0.1,
+					"stamina" : 0.0,
+					"exp" : 0.0,
+					"attack" : 0.0
+				}
+			,
+			"Source" : "Red Potion"
+		},
+		{
+			"ItemID" : 2,
+			"Name" : "Stamina Potion Middle Grade",
+			"Nick" : "SP Potion",
+			"Description" : "Item ini akan memulihkan Stamina Point kamu sebesar 10% dari total Max Stamina kamu.",
+			"Type" : "Consumable",
+			"StatusModifier" : 
+				{
+					"hp" : 0.0,
+					"stamina" : 0.2,
+					"exp" : 0.0,
+					"attack" : 0.0
+				}
+			,
+			"Source" : "Blue Potion"
+		},
+		{
+			"ItemID" : 3,
+			"Name" : "Eye of the Truth",
+			"Nick" : "Reveal",
+			"Description" : "Item ini jika dikenakan dan digunakan ketika pertarungan, maka item ini dapat melihat status Health Point, Stamina Point, Nama Monster dan Deskripsi Monster.",
+			"Type" : "Equipment",
+			"StatusModifier" : 
+				{
+					"hp" : 0.0,
+					"stamina" : 0.0,
+					"exp" : 0.0,
+					"attack" : 0.0
+				}
+			,
+			"Source" : "Monster Eye"
+		},
+		{
+			"ItemID" : 4,
+			"Name" : "Hermes Shoes",
+			"Nick" : "Flee",
+			"Description" : "Item ini berguna untuk meningkatkan kesempatan kamu untuk kabur dari hantu.",
+			"Type" : "Equipment",
+			"StatusModifier" : 
+				{
+					"hp" : 0.0,
+					"stamina" : 0.0,
+					"exp" : 0.0,
+					"attack" : 0.0
+				}
+			,
+			"Source" : "Iron Boot"
+		},
+		{
+			"ItemID" : 5,
+			"Name" : "Time Stone",
+			"Nick" : "Stone",
+			"Description" : "Item ini akan mengurangi cooldown skill dan burst kamu sebesar 50%.",
+			"Type" : "Artifact",
+			"StatusModifier" : 
+				{
+					"hp" : 0.0,
+					"stamina" : 0.0,
+					"exp" : 0.0,
+					"attack" : 0.0
+				}
+			,
+			"Source" : "Rune Stone"
+		}
+	]
+    
+}

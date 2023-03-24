@@ -1,0 +1,59 @@
+{
+    "Player" : {
+        "Name" : "Kalmia",
+        "Job" : "Mahasiswa",
+        "Gender" : "???",
+        "CharacterSource" : "Arissa",
+        "Level" : 1,
+        "Status" : {
+            "HealthPoint" : 100.0,
+            "MaxHealthPoint" : 100.0,
+            "ChargePoint" : 100.0,
+            "MaxChargePoint" : 100.0,
+            "BaseRechargePoint" : 5.0,
+            "ExperiencePoint" : 0,
+            "ExperienceCap" : 100,
+            "BaseAttack" : 10.0,
+            "BaseDefense" : 10,
+            "AttackCooldown" : 3.0
+        },
+        "Slots" : [
+            {
+                "ItemID" : 1,
+                "IsUsed" : false,
+                "Quantity" : 5
+            }
+        ],
+        "CurrentCheckpoint" : 0,
+        "Talent" : {
+            "Skill" : [
+                    {
+                        "Name" : "Tapak Budha",
+                        "DamageMultiplier" : 1.5,
+                        "Description" : "Jurus ini merupakan jurus tapak pencerahan yang diberikan Budha",
+                        "ElementType" : "Sacred",
+                        "ChargeMultiplier" : 1.5,
+                        "Cooldown" : 3.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : true,
+                        "SourceIcon" : "S_blue_hit",
+                        "SourceEffect" : "Hit_02",
+                    }
+            ],
+            "Burst" : [
+                    {
+                        "Name" : "Reversal",
+                        "DamageMultiplier" : 10.0,
+                        "Description" : "Skill yang memanggil ketiadaan dan tidak memiliki efek apapun ke musuh",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 75,
+                        "Cooldown" : 20.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : true,
+                        "SourceIcon" : "S_Thunder_horn",
+                        "SourceEffect" : "CosmicReversal",
+                    }
+            ]
+        }
+    }
+}

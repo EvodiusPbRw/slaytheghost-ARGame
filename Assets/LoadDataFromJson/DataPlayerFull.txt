@@ -1,0 +1,127 @@
+{
+    "Player" : {
+        "Name" : "Kalmia",
+        "Job" : "Mahasiswa",
+        "Gender" : "Female",
+        "CharacterSource" : "Arissa",
+        "Level" : 1,
+        "Status" : {
+            "HealthPoint" : 100.0,
+            "MaxHealthPoint" : 100.0,
+            "ChargePoint" : 100.0,
+            "MaxChargePoint" : 100.0,
+            "BaseRechargePoint" : 5.0,
+            "ExperiencePoint" : 0,
+            "ExperienceCap" : 100,
+            "BaseAttack" : 5.0,
+            "BaseDefense" : 10,
+            "AttackCooldown" : 0
+        },
+        "Slots" : [
+            {
+                "ItemID" : 1,
+                "IsUsed" : false,
+                "Quantity" : 5
+            },
+            {
+                "ItemID" : 5,
+                "IsUsed" : false,
+                "Quantity" : 1
+            },
+            {
+                "ItemID" : 3,
+                "IsUsed" : false,
+                "Quantity" : 1
+            },
+            {
+                "ItemID" : 2,
+                "IsUsed" : false,
+                "Quantity" : 1
+            },
+            {
+                "ItemID" : 4,
+                "IsUsed" : false,
+                "Quantity" : 1
+            }
+        ],
+        "CurrentCheckpoint" : 0,
+        "Talent" : {
+            "Skill" : [
+                    {
+                        "Name" : "Holy Hit",
+                        "DamageMultiplier" : 1.5,
+                        "Description" : "Jurus ini merupakan jurus penyiraman Rohani",
+                        "ElementType" : "Sacred",
+                        "ChargeMultiplier" : 1.5,
+                        "Cooldown" : 3.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : true,
+                        "SourceIcon" : "S_blue_hit",
+                        "SourceEffect" : "Hit_02",
+                    },
+                    {
+                        "Name" : "Vampiric",
+                        "DamageMultiplier" : 2.5,
+                        "Description" : "Life Steal",
+                        "ElementType" : "Wicked",
+                        "ChargeMultiplier" : 5.0,
+                        "Cooldown" : 6.0,
+                        "LifeSteal" : 20.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_X_chop",
+                        "SourceEffect" : "Hit_03",
+                    },
+                    {
+                        "Name" : "True Bug",
+                        "DamageMultiplier" : 1.0,
+                        "Description" : "Life Steal",
+                        "ElementType" : "Wicked",
+                        "ChargeMultiplier" : 100.0,
+                        "Cooldown" : 5.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_essence_found",
+                        "SourceEffect" : "Guard_01",
+                    }
+            ],
+            "Burst" : [
+                    {
+                        "Name" : "Reversal",
+                        "DamageMultiplier" : 10.0,
+                        "Description" : "Skill yang memanggil ketiadaan (Cuma ngasih damage doang hehe)",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 75,
+                        "Cooldown" : 20.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : true,
+                        "SourceIcon" : "S_Thunder_horn",
+                        "SourceEffect" : "CosmicReversal",
+                    },
+                    {
+                        "Name" : "Tech",
+                        "DamageMultiplier" : 10.0,
+                        "Description" : "Nyerap energi dari dalam, tapi dalam musuh",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 150,
+                        "Cooldown" : 30.0,
+                        "LifeSteal" : 60.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_technology",
+                        "SourceEffect" : "EtherealHit 2",
+                    },
+                    {
+                        "Name" : "Seinaru",
+                        "DamageMultiplier" : 20.0,
+                        "Description" : "Sumpah gak tau mau kasih deskripsi apa",
+                        "ElementType" : "Sacred",
+                        "ChargePoint" : 100,
+                        "Cooldown" : 5.0,
+                        "LifeSteal" : 0.0,
+                        "IsUsed" : false,
+                        "SourceIcon" : "S_stranger_light",
+                        "SourceEffect" : "ScifiTris 3 (collapse)",
+                    }
+            ]
+        }
+    }
+}

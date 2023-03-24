@@ -1,0 +1,176 @@
+{
+	"Data" : {
+		"monster" : [
+			{
+				"id" : 1,
+				"cd_name" : "Pumpkin Lord",
+				"desc" : "Monster yang tumbu dari labu yang sering dibuang dan bersatu kembali",
+				"type" : "Kroco",
+				"level" : 1,
+				"max_hp" : 150.0,
+				"attack" : 10.0,
+				"ultimate" : 10.0,
+				"hp" : 150.0,
+				"energy" : 0.0,
+				"energy_cap" : 150.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 5.0,
+				"block" : 10.0,
+				"block_chance" : 20.0,
+				"base_exp" : 50,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Agape",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster1"
+			},
+			{
+				"id" : 2,
+				"cd_name" : "Bio Mutant",
+				"desc" : "Test bobi botak biadab",
+				"type" : "Boss",
+				"level" : 2,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 10.0,
+				"ultimate" : 5.5,
+				"energy" : 5.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 10.0,
+				"evade_chance" : 50.0,
+				"block" : 5.0,
+				"block_chance" : 5.0,
+				"base_exp" : 55,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Didaktos",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster2"
+			},
+			{
+				"id" : 3,
+				"cd_name" : "Zombie",
+				"desc" : "Ini monster gak punya kecerdasan",
+				"type" : "Kroco",
+				"level" : 2,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 50.0,
+				"ultimate" : 1.5,
+				"energy" : 10.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 0.0,
+				"block_chance" : 0.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Bero",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster3"
+			},
+			{
+				"id" : 4,
+				"cd_name" : "Skeleton Warrior",
+				"desc" : "Kerangka yang hidup dari energi negatif manusia",
+				"type" : "Kroco",
+				"level" : 3,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 50.0,
+				"ultimate" : 3.0,
+				"energy" : 0.0,
+				"energy_cap" : 100.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 20.0,
+				"block_chance" : 50.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Bero",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster4"
+			},
+			{
+				"id" : 5,
+				"cd_name" : "Breaker",
+				"desc" : "Block dan Evade rendah, namun sering melakukan ulti",
+				"type" : "Boss",
+				"level" : 3,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 10.0,
+				"ultimate" : 3.0,
+				"energy" : 20.0,
+				"energy_cap" : 25.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 10.0,
+				"block" : 15.0,
+				"block_chance" : 15.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 3,
+						'chance' : 80,
+					},
+					{
+						'item_id' : 4,
+						'chance' : 30
+					}
+				],
+				"location" : "Bero",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster5"
+			}
+		]
+	}
+}

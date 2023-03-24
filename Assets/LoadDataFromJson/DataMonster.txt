@@ -1,0 +1,342 @@
+{
+	"Data" : {
+		"monster" : [
+			{
+				"id" : 1,
+				"cd_name" : "Pumpkin Lord",
+				"desc" : "Monster yang tumbu dari labu yang sering dibuang dan bersatu kembali",
+				"type" : "Kroco",
+				"level" : 1,
+				"max_hp" : 150.0,
+				"attack" : 10.0,
+				"ultimate" : 10.0,
+				"hp" : 150.0,
+				"energy" : 0.0,
+				"energy_cap" : 150.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 5.0,
+				"block" : 10.0,
+				"block_chance" : 20.0,
+				"base_exp" : 50,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Testing",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster1"
+			},
+			{
+				"id" : 2,
+				"cd_name" : "Bio Mutant",
+				"desc" : "Hantu mutant yang muncul dari dunia lain, mempunyai status normal dan mempunyai serangan yang normal",
+				"type" : "Boss",
+				"level" : 2,
+				"max_hp" : 250.0,
+				"hp" : 250.0,
+				"attack" : 15.0,
+				"ultimate" : 2.5,
+				"energy" : 10.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 7.0,
+				"evade_chance" : 10.0,
+				"block" : 25.0,
+				"block_chance" : 50.0,
+				"base_exp" : 50,
+				"drop" : [
+					{
+						'item_id' : 3,
+						'chance' : 90,
+					},
+					{
+						'item_id' : 4,
+						'chance' : 10
+					}
+				],
+				"location" : "Agape",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster2"
+			},
+			{
+				"id" : 3,
+				"cd_name" : "Zombie",
+				"desc" : "Mayat yang hidup kembali dari tanah, namun ketika portal terbuka maka mayat tersebut akan sepenuhnya menjadi hantu. Hantu ini mempunyai damage yang lumayan tinggi dan energi regen lumayan",
+				"type" : "Kroco",
+				"level" : 2,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 10.0,
+				"ultimate" : 1.5,
+				"energy" : 10.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 0.0,
+				"block_chance" : 0.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Agape",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster3"
+			},
+			{
+				"id" : 4,
+				"cd_name" : "Skeleton Warrior",
+				"desc" : "Kerangka yang berasal dari dunia lain yang mencoba memasuki portal dan sepenuhnya menjadi hantu di dimensi ini. Kerangka tersebut memiliki block yang terbilang tinggi",
+				"type" : "Kroco",
+				"level" : 3,
+				"max_hp" : 100.0,
+				"hp" : 100.0,
+				"attack" : 10.0,
+				"ultimate" : 3.0,
+				"energy" : 0.0,
+				"energy_cap" : 100.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 20.0,
+				"block_chance" : 50.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 60,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 60
+					}
+				],
+				"location" : "Agape",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster4"
+			},
+			{
+				"id" : 5,
+				"cd_name" : "Breaker",
+				"desc" : "???",
+				"type" : "Boss",
+				"level" : 3,
+				"max_hp" : 1000.0,
+				"hp" : 1000.0,
+				"attack" : 20.0,
+				"ultimate" : 3.0,
+				"energy" : 20.0,
+				"energy_cap" : 25.0,
+				"energy_regen" : 10.0,
+				"evade_chance" : 10.0,
+				"block" : 15.0,
+				"block_chance" : 15.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 5,
+						'chance' : 90,
+					},
+					{
+						'item_id' : 4,
+						'chance' : 10
+					}
+				],
+				"location" : "Didaktos",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster5"
+			},
+			{
+				"id" : 6,
+				"cd_name" : "Zombie",
+				"desc" : "Ini monster gak punya kecerdasan",
+				"type" : "Kroco",
+				"level" : 2,
+				"max_hp" : 200.0,
+				"hp" : 200.0,
+				"attack" : 20.0,
+				"ultimate" : 1.5,
+				"energy" : 10.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 0.0,
+				"block_chance" : 0.0,
+				"base_exp" : 50,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 30,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 30
+					}
+				],
+				"location" : "Koinonia",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster3"
+			},
+			{
+				"id" : 7,
+				"cd_name" : "Skeleton Warrior",
+				"desc" : "Kerangka yang hidup dari energi negatif manusia",
+				"type" : "Kroco",
+				"level" : 3,
+				"max_hp" : 250.0,
+				"hp" : 250.0,
+				"attack" : 20.0,
+				"ultimate" : 3.0,
+				"energy" : 15.0,
+				"energy_cap" : 100.0,
+				"energy_regen" : 15.0,
+				"evade_chance" : 0.0,
+				"block" : 30.0,
+				"block_chance" : 70.0,
+				"base_exp" : 50,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 30,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 30
+					}
+				],
+				"location" : "Didaktos",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster4"
+			},
+			{
+				"id" : 8,
+				"cd_name" : "SWAT From Isekai",
+				"desc" : "Seorang tentara dengan kemampuan tempur yang tinggi dan memiliki block chance yang tinggi serta badan yang tahan banting, Namun kemampuan untuk menghindar tidak ada",
+				"type" : "Boss",
+				"level" : 3,
+				"max_hp" : 2000.0,
+				"hp" : 2000.0,
+				"attack" : 30.0,
+				"ultimate" : 3.0,
+				"energy" : 0.0,
+				"energy_cap" : 100.0,
+				"energy_regen" : 10.0,
+				"evade_chance" : 0.0,
+				"block" : 50.0,
+				"block_chance" : 70.0,
+				"base_exp" : 25,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 99,
+					}
+				],
+				"location" : "Koinonia",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster6"
+			},
+			{
+				"id" : 9,
+				"cd_name" : "Zombie",
+				"desc" : "Ini monster gak punya kecerdasan",
+				"type" : "Kroco",
+				"level" : 2,
+				"max_hp" : 350.0,
+				"hp" : 350.0,
+				"attack" : 25.0,
+				"ultimate" : 1.5,
+				"energy" : 10.0,
+				"energy_cap" : 50.0,
+				"energy_regen" : 5.0,
+				"evade_chance" : 0.0,
+				"block" : 0.0,
+				"block_chance" : 0.0,
+				"base_exp" : 75,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 20,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 20
+					}
+				],
+				"location" : "Koinonia",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster3"
+			},
+			{
+				"id" : 10,
+				"cd_name" : "Skeleton Warrior",
+				"desc" : "Kerangka yang hidup dari energi negatif manusia",
+				"type" : "Kroco",
+				"level" : 3,
+				"max_hp" : 450.0,
+				"hp" : 450.0,
+				"attack" : 25.0,
+				"ultimate" : 3.0,
+				"energy" : 15.0,
+				"energy_cap" : 100.0,
+				"energy_regen" : 15.0,
+				"evade_chance" : 0.0,
+				"block" : 30.0,
+				"block_chance" : 80.0,
+				"base_exp" : 75,
+				"drop" : [
+					{
+						'item_id' : 1,
+						'chance' : 20,
+					},
+					{
+						'item_id' : 2,
+						'chance' : 20
+					}
+				],
+				"location" : "Koinonia",
+				"coordinate" : {
+					"latitude" : -7.2012131,
+					"longitude" : 1.002131
+				},
+				"source" : "Monster4"
+			},
+		]
+	}
+}
